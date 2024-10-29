@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* Genel ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/bg_Argyle.jpg'); /* Dosya uzantısı eklendi */
+    background-size: auto;
+    background-position: repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.curry{
+	text-align: center;
+}
+
+
+.curry1{
+	border:4px double red!important;
+	text-align: center;
+}
+
+#table{
+	background-color: #feffe0;
+	border-color:red;
+	border-collapse: collapse;
+}
+
+caption{
+    color: red;
+}
+
+.flex{
+	display:flex;
+}
+
+/* Konteyner için ayarlar */
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Resim ayarları */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.list{
+	margin-bottom:3rem!important;
+}
+
+/* Liste ve bağlantı ayarları */
+ul {
+    list-style-type: circle;
+    padding: 0;
+    text-align: left;
+    margin-left:3rem!important;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
